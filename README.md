@@ -3,9 +3,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 npx create-next-app@14.0.1 .
-
-? Would you like to use TypeScript? » No / Yes(node:2512)
-
 √ Would you like to use TypeScript? ... No / (Yes)
 √ Would you like to use ESLint? ... No / (Yes)
 √ Would you like to use Tailwind CSS? ... No / (Yes)
