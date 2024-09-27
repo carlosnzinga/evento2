@@ -21,8 +21,8 @@ export default function Home() {
       <section className="mt-4 flex gap-x-4 text-sm text-white/50">
         <p>Popular:</p>
         <div className="flex gap-x-3">
-          <Link href="/events/basel">Basel</Link>
-          <Link href="/events/zurick">Zuric</Link>
+          <Link href="/events/austin">Austin</Link>
+          <Link href="/events/seattle">Seattle</Link>
         </div>
       </section>
     </main>

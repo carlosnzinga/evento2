@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-state-effects {
+.state-effects {
   @apply hover:scale-105 focus:scale-105 active:scale-[1.02] transition;
 }
 
