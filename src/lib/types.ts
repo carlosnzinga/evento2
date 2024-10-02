@@ -2,7 +2,7 @@ export type EventoEvent = {
   id: number;
   name: string;
   slug: string;
-  slug: string;
+
   city: string;
   location: string;
   date: Date;
