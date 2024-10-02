@@ -11,3 +11,7 @@ export function sleep(ms: number) {
     setTimeout(resolve, ms);
   });
 }
+
+export function capitalize(string: string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
