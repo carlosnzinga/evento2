@@ -11,7 +11,45 @@ npx create-next-app@14.0.1 .
 √ Would you like to customize the default import alias (@/\*)? ... (No) / Yes
 Creating a new Next.js app in C:\Users\cajo3\Desktop\MeineProjekte\evento2.
 
-First, run the development server:
+## Installing prisma (Database)
+
+npm install prisma@5.6.0 --save-dev
+
+## starting Sqlite (Database)
+
+npx prisma init --datasource-provider sqlite
+
+create at schema.prisma file a model
+
+## pushing database:
+
+npx prisma db push
+
+model EventoEvent {
+id Int @id @default(autoincrement())
+}
+
+## how to see data:
+
+npx prisma studio
+
+## create a seed.ts file
+
+add this in your package.json file
+
+"prisma": {
+"seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+},
+
+## start seed
+
+npx prisma db seed
+
+## to use ts-node you need to install it first
+
+npm install ts-node@10.9.1 --save-dev
+
+## First, run the development server:
 
 ```bash
 npm run dev
