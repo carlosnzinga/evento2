@@ -49,6 +49,10 @@ npx prisma db seed
 
 npm install ts-node@10.9.1 --save-dev
 
+## Installing server-only
+
+npm install server-only
+
 ## First, run the development server:
 
 ```bash
