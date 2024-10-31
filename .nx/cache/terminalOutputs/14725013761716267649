@@ -1,0 +1,21 @@
+
+> evento2@0.1.0 start
+> next start
+
+ [31m[1m⨯[22m[39m Failed to start server
+Error: listen EADDRINUSE: address already in use :::3000
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1904:16)[39m
+[90m    at listenInCluster (node:net:1961:12)[39m
+[90m    at Server.listen (node:net:2063:7)[39m
+    at [90mC:\Users\cajo3\Desktop\MeineProjekte\evento2\[39mnode_modules\[4mnext[24m\dist\server\lib\start-server.js:268:16
+    at new Promise (<anonymous>)
+    at startServer [90m(C:\Users\cajo3\Desktop\MeineProjekte\evento2\[39mnode_modules\[4mnext[24m\dist\server\lib\start-server.js:181:11[90m)[39m
+    at nextStart [90m(C:\Users\cajo3\Desktop\MeineProjekte\evento2\[39mnode_modules\[4mnext[24m\dist\cli\next-start.js:50:40[90m)[39m
+    at [90mC:\Users\cajo3\Desktop\MeineProjekte\evento2\[39mnode_modules\[4mnext[24m\dist\bin\next:150:54
+    at async main [90m(C:\Users\cajo3\Desktop\MeineProjekte\evento2\[39mnode_modules\[4mnext[24m\dist\bin\next:150:5[90m)[39m {
+  code: [32m'EADDRINUSE'[39m,
+  errno: [33m-4091[39m,
+  syscall: [32m'listen'[39m,
+  address: [32m'::'[39m,
+  port: [33m3000[39m
+}

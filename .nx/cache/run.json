@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run evento2:start",
+    "startTime": "2024-10-29T15:14:28.435Z",
+    "endTime": "2024-10-29T15:14:29.920Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "evento2:start",
+      "target": "start",
+      "projectName": "evento2",
+      "hash": "14725013761716267649",
+      "startTime": "2024-10-29T15:14:28.443Z",
+      "endTime": "2024-10-29T15:14:29.919Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

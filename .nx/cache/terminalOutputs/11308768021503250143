@@ -1,0 +1,1108 @@
+
+> evento2@0.1.0 dev
+> next dev
+
+ [33m[1m⚠[22m[39m Port 3000 is in use, trying 3001 instead.
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.1[39m[22m
+   - Local:        http://localhost:3001
+
+(node:49904) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ [32m[1m✓[22m[39m Ready in 3.8s
+ [37m[1m○[22m[39m Compiling /page ...
+ [32m[1m✓[22m[39m Compiled /page in 3.6s (536 modules)
+ [32m[1m✓[22m[39m Compiled in 791ms (258 modules)
+ [32m[1m✓[22m[39m Compiled /favicon.ico/route in 374ms (306 modules)
+ [37m[1m○[22m[39m Compiling /events/[city]/page ...
+ [32m[1m✓[22m[39m Compiled /events/[city]/page in 677ms (535 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled /page in 102ms (280 modules)
+ [32m[1m✓[22m[39m Compiled /favicon.ico/route in 121ms (308 modules)
+ [32m[1m✓[22m[39m Compiled in 402ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 246ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 339ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 346ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 312ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 330ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 334ms (258 modules)
+ [32m[1m✓[22m[39m Compiled in 290ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 360ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 229ms (538 modules)
+ [32m[1m✓[22m[39m Compiled in 236ms (538 modules)
+ [32m[1m✓[22m[39m Compiled /terms-conditions/page in 462ms (526 modules)
+ [32m[1m✓[22m[39m Compiled /privacy-policy/page in 238ms (528 modules)
+ [32m[1m✓[22m[39m Compiled in 1311ms (512 modules)
+ [32m[1m✓[22m[39m Compiled in 263ms (258 modules)
+ [32m[1m✓[22m[39m Compiled in 445ms (512 modules)
+ [31m[1m⨯[22m[39m src\components\header.tsx (17:2) @ usePathname
+ [31m[1m⨯[22m[39m ReferenceError: usePathname is not defined
+    at Header (./src/components/header.tsx:24:5)
+    at stringify (<anonymous>)
+[0m [90m 15 |[39m[0m
+[0m [90m 16 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHeader[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 17 |[39m   usePathname[33m;[39m[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m   [36mreturn[39m ([0m
+[0m [90m 20 |[39m     [33m<[39m[33mheader[39m className[33m=[39m[32m"flex justify-between items-center border-b border-white/10 h-14 px-3 sm:px-9"[39m[33m>[39m[0m
+ [32m[1m✓[22m[39m Compiled in 260ms (512 modules)
+ [31m[1m⨯[22m[39m src\components\header.tsx (17:2) @ usePathname
+ [31m[1m⨯[22m[39m ReferenceError: usePathname is not defined
+    at Header (./src/components/header.tsx:24:5)
+    at stringify (<anonymous>)
+[0m [90m 15 |[39m[0m
+[0m [90m 16 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHeader[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 17 |[39m   usePathname()[33m;[39m[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m   [36mreturn[39m ([0m
+[0m [90m 20 |[39m     [33m<[39m[33mheader[39m className[33m=[39m[32m"flex justify-between items-center border-b border-white/10 h-14 px-3 sm:px-9"[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src\components\header.tsx (17:2) @ usePathname
+ [31m[1m⨯[22m[39m ReferenceError: usePathname is not defined
+    at Header (./src/components/header.tsx:24:5)
+    at stringify (<anonymous>)
+digest: "3238279336"
+[0m [90m 15 |[39m[0m
+[0m [90m 16 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHeader[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 17 |[39m   usePathname()[33m;[39m[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m   [36mreturn[39m ([0m
+[0m [90m 20 |[39m     [33m<[39m[33mheader[39m className[33m=[39m[32m"flex justify-between items-center border-b border-white/10 h-14 px-3 sm:px-9"[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 476ms (523 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\components\client-hook-in-server-component-error.js (17:18) @ clientHookInServerComponentError
+ [31m[1m⨯[22m[39m Error: usePathname only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+    at Header (./src/components/header.tsx:27:65)
+    at stringify (<anonymous>)
+[1mnull[22m
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\components\client-hook-in-server-component-error.js (17:18) @ clientHookInServerComponentError
+ [31m[1m⨯[22m[39m Error: usePathname only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+    at Header (./src/components/header.tsx:27:65)
+    at stringify (<anonymous>)
+digest: "3503485989"
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 269ms (523 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\components\client-hook-in-server-component-error.js (17:18) @ clientHookInServerComponentError
+ [31m[1m⨯[22m[39m Error: usePathname only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+    at Header (./src/components/header.tsx:27:88)
+    at stringify (<anonymous>)
+[1mnull[22m
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\components\client-hook-in-server-component-error.js (17:18) @ clientHookInServerComponentError
+ [31m[1m⨯[22m[39m Error: usePathname only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+    at Header (./src/components/header.tsx:27:88)
+    at stringify (<anonymous>)
+digest: "355713894"
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 977ms (516 modules)
+ [32m[1m✓[22m[39m Compiled in 375ms (516 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src\components\header.tsx (31:25) @ clsx
+ [31m[1m⨯[22m[39m ReferenceError: clsx is not defined
+    at eval (./src/components/header.tsx:40:40)
+    at Array.map (<anonymous>)
+    at Header (./src/components/header.tsx:39:38)
+[0m [90m 29 |[39m             [33m<[39m[33mli[39m[0m
+[0m [90m 30 |[39m               key[33m=[39m{route[33m.[39mpath}[0m
+[0m[31m[1m>[22m[39m[90m 31 |[39m               className[33m=[39m{clsx([32m"text-white/50 hover:text-white transition"[39m)}[0m
+[0m [90m    |[39m                         [31m[1m^[22m[39m[0m
+[0m [90m 32 |[39m             [33m>[39m[0m
+[0m [90m 33 |[39m               [33m<[39m[33mLink[39m href[33m=[39m{route[33m.[39mpath}[33m>[39m{route[33m.[39mname}[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
+[0m [90m 34 |[39m             [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 285ms (518 modules)
+ [32m[1m✓[22m[39m Compiled in 459ms (518 modules)
+ [32m[1m✓[22m[39m Compiled in 383ms (518 modules)
+ [32m[1m✓[22m[39m Compiled in 573ms (518 modules)
+ [32m[1m✓[22m[39m Compiled in 374ms (518 modules)
+ [32m[1m✓[22m[39m Compiled in 600ms (518 modules)
+ [31m[1m⨯[22m[39m ./src/components/header.tsx
+Error: 
+  [31mx[0m Unexpected token `header`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\components\header.tsx[0m:21:1]
+ [2m21[0m |   const activePathname = usePathname();
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <header className="flex justify-between items-center border-b border-white/10 h-14 px-3 sm:px-9">
+    : [31;1m     ^^^^^^[0m
+ [2m25[0m |       <Logo />
+ [2m26[0m | 
+ [2m26[0m |       <nav>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/header.tsx
+./src/app/layout.tsx
+ [37m[1m○[22m[39m Compiling /_error ...
+ [31m[1m⨯[22m[39m ./src/components/header.tsx
+Error: 
+  [31mx[0m Unexpected token `header`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\components\header.tsx[0m:21:1]
+ [2m21[0m |   const activePathname = usePathname();
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <header className="flex justify-between items-center border-b border-white/10 h-14 px-3 sm:px-9">
+    : [31;1m     ^^^^^^[0m
+ [2m25[0m |       <Logo />
+ [2m26[0m | 
+ [2m26[0m |       <nav>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/header.tsx
+./src/app/layout.tsx
+ [31m[1m⨯[22m[39m ./src/components/header.tsx
+Error: 
+  [31mx[0m Unexpected token `header`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\components\header.tsx[0m:21:1]
+ [2m21[0m |   const activePathname = usePathname();
+ [2m22[0m | 
+ [2m23[0m |   return (
+ [2m24[0m |     <header className="flex justify-between items-center border-b border-white/10 h-14 px-3 sm:px-9">
+    : [31;1m     ^^^^^^[0m
+ [2m25[0m |       <Logo />
+ [2m26[0m | 
+ [2m26[0m |       <nav>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/header.tsx
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [32m[1m✓[22m[39m Compiled /not-found in 1257ms (663 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [32m[1m✓[22m[39m Compiled in 918ms (677 modules)
+ [32m[1m✓[22m[39m Compiled in 446ms (677 modules)
+ [32m[1m✓[22m[39m Compiled in 610ms (672 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 664ms (672 modules)
+ [31m[1m⨯[22m[39m src\components\header.tsx (42:15) @ currentPathname
+ [31m[1m⨯[22m[39m ReferenceError: currentPathname is not defined
+    at eval (./src/components/header.tsx:56:33)
+    at Array.map (<anonymous>)
+    at Header (./src/components/header.tsx:42:38)
+[0m [90m 40 |[39m               [33m<[39m[33mLink[39m href[33m=[39m{route[33m.[39mpath}[33m>[39m{route[33m.[39mname}[33m<[39m[33m/[39m[33mLink[39m[33m>[39m[0m
+[0m [90m 41 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 42 |[39m               {currentPathname [33m===[39m route[33m.[39mpath [33m&&[39m ([0m
+[0m [90m    |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 43 |[39m                 [33m<[39m[33mdiv[39m className[33m=[39m[32m"bg-accent h-1 w-full absolute bottom-0"[39m[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 44 |[39m               )}[0m
+[0m [90m 45 |[39m             [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+ [32m[1m✓[22m[39m Compiled in 267ms (672 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 1666ms (1250 modules)
+ [32m[1m✓[22m[39m Compiled in 601ms (1250 modules)
+ [32m[1m✓[22m[39m Compiled in 443ms (677 modules)
+ [32m[1m✓[22m[39m Compiled in 277ms (677 modules)
+ [32m[1m✓[22m[39m Compiled in 492ms (1250 modules)
+ [33m[1m⚠[22m[39m ./src/app/page.tsx
+Attempted import error: 'SearchForm' is not exported from '@/components/search-form' (imported as 'SearchForm').
+
+Import trace for requested module:
+./src/app/page.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at page.tsx:20.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 379ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 287ms (1253 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 572ms (1253 modules)
+ [31m[1m⨯[22m[39m src\components\search-form.tsx (4:30) @ useState
+ [31m[1m⨯[22m[39m ReferenceError: useState is not defined
+    at SearchForm (./src/components/search-form.tsx:9:33)
+[0m [90m 2 |[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mSearchForm[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m [serach[33m,[39m setSearch] [33m=[39m useState([32m""[39m)[33m;[39m[0m
+[0m [90m   |[39m                              [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m   [36mconst[39m handleSubmit [33m=[39m (e[33m:[39m [33mReact[39m[33m.[39m[33mFormEvent[39m[33m<[39m[33mHTMLFormElement[39m[33m>[39m) [33m=>[39m {[0m
+[0m [90m 7 |[39m     e[33m.[39mpreventDefault()[33m;[39m[0m
+ [32m[1m✓[22m[39m Compiled in 337ms (1253 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 520ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 451ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 1098ms (1321 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 635ms (1321 modules)
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at SearchForm (./src/components/search-form.tsx:16:74)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 517ms (1321 modules)
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at SearchForm (./src/components/search-form.tsx:16:74)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at SearchForm (./src/components/search-form.tsx:16:74)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 325ms (1321 modules)
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at SearchForm (./src/components/search-form.tsx:16:74)
+[1mnull[22m
+ [31m[1m⨯[22m[39m node_modules\next\dist\client\router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at SearchForm (./src/components/search-form.tsx:16:74)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 635ms (1253 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 503ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 275ms (678 modules)
+ [32m[1m✓[22m[39m Compiled in 476ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 314ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 291ms (1253 modules)
+ [32m[1m✓[22m[39m Compiled in 378ms (678 modules)
+ [32m[1m✓[22m[39m Compiled in 208ms (678 modules)
+ [32m[1m✓[22m[39m Compiled in 157ms (678 modules)
+ [31m[1m⨯[22m[39m ./src/app/page.tsx:4:0
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@components/H1[39m'
+[0m [90m 2 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mimport[39m [33mSearchForm[39m [36mfrom[39m [32m"@/components/search-form"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33mH1[39m [36mfrom[39m [32m"@components/H1"[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHome[39m() {[0m
+[0m [90m 7 |[39m   [36mreturn[39m ([0m
+
+https://nextjs.org/docs/messages/module-not-found
+ [31m[1m⨯[22m[39m ./src/app/page.tsx:4:0
+[31m[1mModule not found[22m[39m: Can't resolve '[32m@components/H1[39m'
+[0m [90m 2 |[39m [36mimport[39m [33mLink[39m [36mfrom[39m [32m"next/link"[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mimport[39m [33mSearchForm[39m [36mfrom[39m [32m"@/components/search-form"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33mH1[39m [36mfrom[39m [32m"@components/H1"[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHome[39m() {[0m
+[0m [90m 7 |[39m   [36mreturn[39m ([0m
+
+https://nextjs.org/docs/messages/module-not-found
+ [37m[1m○[22m[39m Compiling /_error ...
+ [32m[1m✓[22m[39m Compiled /not-found in 493ms (1259 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [31m[1m⨯[22m[39m ./src/app/page.tsx
+Error: 
+  [31mx[0m Unexpected token `main`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\app\page.tsx[0m:5:1]
+ [2m 5[0m | 
+ [2m 6[0m | export default function Home() {
+ [2m 7[0m |   return (
+ [2m 8[0m |     <main className="flex flex-col items-center px-3 pt-36">
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       <<H1 className="text-3xl lg:text-6xl font-bold tracking-tight">
+ [2m10[0m |         Find events around you
+ [2m11[0m |       </H1>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+ [31m[1m⨯[22m[39m ./src/app/page.tsx
+Error: 
+  [31mx[0m Unexpected token `main`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\app\page.tsx[0m:5:1]
+ [2m 5[0m | 
+ [2m 6[0m | export default function Home() {
+ [2m 7[0m |   return (
+ [2m 8[0m |     <main className="flex flex-col items-center px-3 pt-36">
+    : [31;1m     ^^^^[0m
+ [2m 9[0m |       <<H1 className="text-3xl lg:text-6xl font-bold tracking-tight">
+ [2m10[0m |         Find events around you
+ [2m11[0m |       </H1>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+ [37m[1m○[22m[39m Compiling /_error ...
+ [32m[1m✓[22m[39m Compiled /not-found in 543ms (1245 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [32m[1m✓[22m[39m Compiled in 505ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 332ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 454ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 633ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 448ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 261ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 269ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 367ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 324ms (1254 modules)
+ [32m[1m✓[22m[39m Compiled in 303ms (1254 modules)
+ [31m[1m⨯[22m[39m ./src/app/events/[city]/page.tsx
+Error: 
+  [31mx[0m Unexpected token `main`. Expected jsx identifier
+   ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\app\events\[city]\page.tsx[0m:2:1]
+ [2m2[0m | 
+ [2m3[0m | export default function EventsPage() {
+ [2m4[0m |   return (
+ [2m5[0m |     <main className="flex flex-col items-center py-24 px-[20px] >
+   : [31;1m     ^^^^[0m
+ [2m6[0m |       <H1>Events in Austin</H1>
+ [2m7[0m |     </main>
+ [2m7[0m |   );
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/events/[city]/page.tsx
+ [31m[1m⨯[22m[39m ./src/app/events/[city]/page.tsx
+Error: 
+  [31mx[0m Unexpected token `main`. Expected jsx identifier
+   ,-[[36;1;4mC:\Users\cajo3\Desktop\MeineProjekte\evento2\src\app\events\[city]\page.tsx[0m:2:1]
+ [2m2[0m | 
+ [2m3[0m | export default function EventsPage() {
+ [2m4[0m |   return (
+ [2m5[0m |     <main className="flex flex-col items-center py-24 px-[20px] >
+   : [31;1m     ^^^^[0m
+ [2m6[0m |       <H1>Events in Austin</H1>
+ [2m7[0m |     </main>
+ [2m7[0m |   );
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/events/[city]/page.tsx
+ [37m[1m○[22m[39m Compiling /_error ...
+ [32m[1m✓[22m[39m Compiled /not-found in 720ms (1259 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 281ms (1259 modules)
+ [32m[1m✓[22m[39m Compiled in 568ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 310ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 912ms (1242 modules)
+ [32m[1m✓[22m[39m Compiled in 751ms (1242 modules)
+ [32m[1m✓[22m[39m Compiled in 473ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 514ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 543ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 586ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 519ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 332ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 500ms (1256 modules)
+ [31m[1m⨯[22m[39m TypeError: Cannot read properties of undefined (reading 'toString')
+    at EventsPage (./src/app/events/[city]/page.tsx:12:11)
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+    at async Promise.all (index 0)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 580ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 497ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 652ms (1256 modules)
+[
+  {
+    id: [33m1[39m,
+    name: [32m'DJ Practice Session'[39m,
+    slug: [32m'dj-practice-session'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Music Hall'[39m,
+    date: [32m'2030-10-12T00:00:00.000Z'[39m,
+    organizerName: [32m'DJ Inc.'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m"Join us for an immersive DJ practice session at the DJ Beats Workshop! Whether you're a beginner aspiring to spin the decks or an experienced DJ looking to refine your skills, this event is tailored just for you. Dive into the world of beats, mixes, and electronic rhythms under the guidance of seasoned DJs and music producers. Showcase your skills during our open decks session. Share your favorite tracks, experiment with live remixing, and receive applause and feedback from a supportive audience."[39m
+  },
+  {
+    id: [33m2[39m,
+    name: [32m'Harmony Festival'[39m,
+    slug: [32m'harmony-festival'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Convention Center'[39m,
+    date: [32m'2030-11-15T00:00:00.000Z'[39m,
+    organizerName: [32m'Music Enthusiasts LLC'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Harmony Festival is a celebration of all music genres, bringing together musicians, artists, and music enthusiasts from around the world. Experience a day filled with live performances, interactive workshops, and a vibrant atmosphere of creativity and harmony. Join us for an unforgettable musical journey!'[39m
+  },
+  {
+    id: [33m3[39m,
+    name: [32m'3D Animation Workshop'[39m,
+    slug: [32m'3d-animation-workshop'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Convention Center'[39m,
+    date: [32m'2030-12-08T00:00:00.000Z'[39m,
+    organizerName: [32m'3D Animators Inc.'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m"Dive into the captivating world of 3D animation at our exclusive 3D Animation Masterclass! Whether you're an aspiring animator, a student studying animation, or a professional looking to enhance your skills, this workshop offers a unique opportunity to learn from industry experts and elevate your animation prowess."[39m
+  },
+  {
+    id: [33m4[39m,
+    name: [32m'Rock the City Concert'[39m,
+    slug: [32m'rock-the-city-concert'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Music Hall'[39m,
+    date: [32m'2030-11-18T00:00:00.000Z'[39m,
+    organizerName: [32m'Rock On Productions'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Get ready to rock out at Rock the City Concert! Experience electrifying performances by top rock bands, enjoy high-energy music, and immerse yourself in an unforgettable night of pure rock and roll.'[39m
+  },
+  {
+    id: [33m6[39m,
+    name: [32m'Jazz Fusion Night'[39m,
+    slug: [32m'jazz-fusion-night'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Jazz Lounge'[39m,
+    date: [32m'2030-11-29T00:00:00.000Z'[39m,
+    organizerName: [32m'Groove Masters Productions'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Indulge in the smooth melodies and rhythmic beats of jazz fusion at Jazz Fusion Night. Experience world-class jazz performances, savor delicious cocktails, and immerse yourself in the soulful ambiance of live jazz music.'[39m
+  },
+  {
+    id: [33m7[39m,
+    name: [32m'Indie Music Showcase'[39m,
+    slug: [32m'indie-music-showcase'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Indie Spot'[39m,
+    date: [32m'2030-11-25T00:00:00.000Z'[39m,
+    organizerName: [32m'Indie Vibes Records'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Discover the next big indie artists at the Indie Music Showcase. Experience live performances by emerging talents, support independent music, and be part of a vibrant community of music enthusiasts and artists.'[39m
+  },
+  {
+    id: [33m10[39m,
+    name: [32m'Enchanted Garden Gala'[39m,
+    slug: [32m'enchanted-garden-gala'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Museum of Art'[39m,
+    date: [32m'2030-12-02T00:00:00.000Z'[39m,
+    organizerName: [32m'Cultural Garden Society'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Step into a world of wonder at the Enchanted Garden Gala, a magical evening of art, music, and fantasy. Explore enchanting garden installations, experience live performances by world-class musicians and dancers, and indulge in gourmet delicacies. Dress in your most glamorous attire and immerse yourself in a night of elegance and enchantment.'[39m
+  },
+  {
+    id: [33m11[39m,
+    name: [32m'Comedy Extravaganza'[39m,
+    slug: [32m'comedy-extravaganza'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Laugh Factory'[39m,
+    date: [32m'2030-11-06T00:00:00.000Z'[39m,
+    organizerName: [32m'Laugh Productions'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Prepare for a night of laughter with top comedians from around the world. Enjoy stand-up, improv, and sketches that will have you in stitches!'[39m
+  },
+  {
+    id: [33m13[39m,
+    name: [32m'Fashion Runway'[39m,
+    slug: [32m'fashion-runway'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Fashion Week Venue'[39m,
+    date: [32m'2030-11-12T00:00:00.000Z'[39m,
+    organizerName: [32m'Chic Trends Agency'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Witness the latest trends on the runway. Top designers will showcase their collections, setting the stage for the future of fashion.'[39m
+  },
+  {
+    id: [33m15[39m,
+    name: [32m'Film Buffs Symposium'[39m,
+    slug: [32m'film-buffs-symposium'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Film Institute'[39m,
+    date: [32m'2030-11-08T00:00:00.000Z'[39m,
+    organizerName: [32m'Cinema Society'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'A gathering for film enthusiasts! Screen classic movies, engage in discussions with filmmakers, and gain insights into the world of cinema.'[39m
+  },
+  {
+    id: [33m17[39m,
+    name: [32m'Wellness Expo'[39m,
+    slug: [32m'wellness-expo'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Convention Center'[39m,
+    date: [32m'2030-11-30T00:00:00.000Z'[39m,
+    organizerName: [32m'Wellness Warriors Inc.'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Immerse yourself in the world of fitness and well-being. Attend fitness classes, learn about nutrition, and explore holistic approaches to health.'[39m
+  },
+  {
+    id: [33m19[39m,
+    name: [32m'Dance Fusion Festival'[39m,
+    slug: [32m'dance-fusion-festival'[39m,
+    city: [32m'Austin'[39m,
+    location: [32m'Austin Street Dance Studio'[39m,
+    date: [32m'2030-11-28T00:00:00.000Z'[39m,
+    organizerName: [32m'Rhythm Revolution'[39m,
+    imageUrl: [32m'https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100'[39m,
+    description: [32m'Experience a blend of dance styles from around the world. Participate in dance workshops, watch electrifying performances, and dance the night away.'[39m
+  }
+]
+ [32m[1m✓[22m[39m Compiled in 564ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 468ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 277ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 475ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 278ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 278ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 282ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 367ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 482ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 370ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 483ms (1256 modules)
+ [32m[1m✓[22m[39m Compiled in 439ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 228ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 199ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 200ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 936ms (1257 modules)
+ [32m[1m✓[22m[39m Compiled in 445ms (1257 modules)
+ [32m[1m✓[22m[39m Compiled in 442ms (1257 modules)
+ [32m[1m✓[22m[39m Compiled in 242ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 193ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 265ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 487ms (1258 modules)
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [32m[1m✓[22m[39m Compiled in 387ms (1258 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (2:19) @ event
+ [31m[1m⨯[22m[39m ReferenceError: event is not defined
+    at EventCard (./src/components/event-card.tsx:10:19)
+    at stringify (<anonymous>)
+digest: "3425101311"
+[0m [90m 1 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mEventCard[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m   [36mreturn[39m [33m<[39m[33msection[39m[33m>[39m{event[33m.[39mname}[33m<[39m[33m/[39m[33msection[39m[33m>[39m[33m;[39m[0m
+[0m [90m   |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m }[0m
+[0m [90m 4 |[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 623ms (1258 modules)
+ [32m[1m✓[22m[39m Compiled in 607ms (1258 modules)
+ [32m[1m✓[22m[39m Compiled in 376ms (679 modules)
+ [32m[1m✓[22m[39m Compiled in 339ms (1258 modules)
+ [32m[1m✓[22m[39m Compiled in 535ms (1258 modules)
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 495ms (1258 modules)
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [31m[1m⨯[22m[39m src\components\event-card.tsx (10:7) @ Image
+ [31m[1m⨯[22m[39m ReferenceError: Image is not defined
+    at EventCard (./src/components/event-card.tsx:11:95)
+    at stringify (<anonymous>)
+digest: "3338247546"
+[0m [90m  8 |[39m   [36mreturn[39m ([0m
+[0m [90m  9 |[39m     [33m<[39m[33msection[39m className[33m=[39m[32m"h-[380px] w-[500px]"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m       [33m<[39m[33mImage[39m src[33m=[39m{event[33m.[39mimageUrl} alt[33m=[39m{event[33m.[39mname} width[33m=[39m{[35m500[39m} height[33m=[39m{[35m280[39m} [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m     [33m<[39m[33m/[39m[33msection[39m[33m>[39m[0m
+[0m [90m 12 |[39m   )[33m;[39m[0m
+[0m [90m 13 |[39m }[0m
+ [32m[1m✓[22m[39m Compiled in 760ms (1271 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m node_modules\next\dist\shared\lib\image-loader.js (41:26) @ defaultLoader
+ [31m[1m⨯[22m[39m Error: Invalid src prop (https://images.unsplash.com/photo-1642178225043-f299072af862?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=100) on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at Array.map (<anonymous>)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Found a change in next.config.js. Restarting the server to apply the changes...
+ [33m[1m⚠[22m[39m Port 3000 is in use, trying 3001 instead.
+C:\Users\cajo3\Desktop\MeineProjekte\evento2\next.config.js:14
+    ],
+    ^
+
+SyntaxError: Unexpected token ']'
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1378:20)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1428:41)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1288:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1104:12)[39m
+[90m    at cjsLoader (node:internal/modules/esm/translators:346:17)[39m
+[90m    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:286:7)[39m
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:234:25)[39m
+[90m    at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)[39m
+    at async loadConfig [90m(C:\Users\cajo3\Desktop\MeineProjekte\evento2\[39mnode_modules\[4mnext[24m\dist\server\config.js:697:36[90m)[39m
+
+Node.js v20.17.0
+[?25h
