@@ -53,6 +53,24 @@ npm install ts-node@10.9.1 --save-dev
 
 npm install server-only
 
+## setup database in Vercel
+
+create db with postgres
+
+klick onprisma and copy the datasource into schema.prisma file
+
+copy .env.local data to .env file
+
+go to .gitignore so that your secrets do be pusht to
+
+delete file dev.db
+
+npx prisma db push
+
+npx prisma db seed
+
+scripts -> package.json -> "postinstall": "prisma generate"
+
 ## First, run the development server:
 
 ```bash
